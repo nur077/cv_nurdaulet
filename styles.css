@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Lora:ital@1&family=Work+Sans&display=swap');
+
+.avatar {
+    float: left;
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 0px 40px 20px 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /* background: #fff; */
+    background: #D5E1EE;
+    margin-bottom: 120px;
+}
+
+.info {
+    margin-top: 10px;
+    display: flex;
+    color: #696969;
+}
+
+@media(max-width: 450px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text p:first-of-type {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1d8eff;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow:
+      1px 1px #78897f,
+      2px 2px #78897f,
+      3px 3px #78897f,
+      4px 4px #78897f,
+      5px 5px #78897f;
+    transform: translateX(-5px);
+  }
+
+.bg-white {
+    background: #f1f1f1;
+}
+
+.bg-green {
+    background: green;
+}
+
+.redesign {
+    word-spacing: 15px;
+    /* text-decoration: underline; */
+}
+
+.overline {
+    border-top: 2px dashed #86898f;
+    padding-top: 10px;
+}
+
+.overline2 {
+    border-top: 1px solid #86898f;
+    padding-top: 10px;
+}
+
+.container h2 {
+    border-bottom: 2px solid black;
+}
+
+a {
+    color: #000;
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #778899;
+}
+
+
+.form-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+
+.form-group label {
+    color: #86898f;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 15px 0 10px;
+    outline: none;
+    background: #D5E1EE; 
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.btn {
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container-lang {
+    width: 100%;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.language {
+    text-align: right;
+    line-height: 20px;
+    color: #fff;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.bg-grey {
+    background-color: rgb(174, 182, 191);
+}
+
+.rus{
+    width: 90%;
+}
+
+.kaz {
+    width: 100%;
+}
+
+.eng {
+    width: 75%;
+}
+
+.additional {
+    color: #696969;
+    margin-top: 5px;
+}
